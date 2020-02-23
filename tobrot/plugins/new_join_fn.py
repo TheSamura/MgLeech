@@ -36,7 +36,7 @@ async def help_message_f(client, message):
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"[Welcome !!](https://t.me/magnetdownloader/2339)\n\nPlease read the Pinned Message\n\nReply these commands to Magnet link: \n`/leech@himoto_bot` \n`/leech@himoto_bot archive`\n`/ytdl@himoto_bot`\n`/savethumbnail@himoto_bot`\n`/clearthumbnail@himoto_bot`\n\n<u>Instructions</u>\n<u>To leech a Magnet Link👇</u>\n 1)Send your magnet link in Bold format \n 2)Then reply /leech to that \n\n To Download YouTube/Other Links 👇 \n 1) Send your link \n 2) Reply /ytdl \n\n If still getting some problems try checking chat or tag and ask admins in chat. \n\n <b>Happy Leeching!😻</b>",
+        f"[Welcome !!]\n\nPlease read the Pinned Message\n\nReply these commands to Magnet link: \n`/leech@himoto_bot` \n`/leecharchive@himoto_bot`\n`/ytdl@himoto_bot`\n`/savethumbnail@himoto_bot`\n`/clearthumbnail@himoto_bot`\n\n<u><b>Instructions</b></u>\n<u>To leech a Magnet Link👇</u>\n 1)Send your magnet link in Bold format \n 2)Then reply /leech@himoto_bot to that \n\n <u>To Download YouTube/Other Links 👇</u> \n 1) Send your link \n 2) Reply /ytdl@himoto_bot \n\n If still getting some problems try checking chat or tag and ask admins in chat. \n\n <b>Happy Leeching!😻</b>",
         quote=True
     )
 

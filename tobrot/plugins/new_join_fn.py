@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
 
 # the logging things
 import logging
@@ -37,7 +36,7 @@ async def help_message_f(client, message):
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"[Welcome !!](https://t.me/magnetdownloader/2339)\n\nPlease read the Pinned Message\n\nReply these commands to Magnet link: \n`/leech@Alpacino_The_bot` \n`/leech@Alpacino_The_bot archive`\n`/ytdl@Alpacino_The_bot`\n`/savethumbnail@Alpacino_The_bot`\n`/clearthumbnail@Alpacino_The_bot`\n\n If still getting some problems try checking chat or tag and ask admins in chat.\n\n Check out our Channel for older uploads : @alpacinodump",
+        f"[Welcome !!](https://t.me/magnetdownloader/2339)\n\nPlease read the Pinned Message\n\nReply these commands to Magnet link: \n`/leech@himoto_bot` \n`/leech@himoto_bot archive`\n`/ytdl@himoto_bot`\n`/savethumbnail@himoto_bot`\n`/clearthumbnail@himoto_bot`\n\n<u>Instructions</u>\n<u>To leech a Magnet Link👇</u>\n 1)Send your magnet link in Bold format \n 2)Then reply /leech to that \n\n To Download YouTube/Other Links 👇 \n 1) Send your link \n 2) Reply /ytdl \n\n If still getting some problems try checking chat or tag and ask admins in chat. \n\n <b>Happy Leeching!😻</b>",
         quote=True
     )
 
@@ -47,7 +46,6 @@ async def rename_message_f(client, message):
     inline_keyboard.append([
         pyrogram.InlineKeyboardButton(
             text="read this?",
-            url="https://t.me/keralagram/698909"
         )
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
